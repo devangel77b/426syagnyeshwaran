@@ -1,0 +1,78 @@
+\documentclass[10pt]{letter}
+
+% to sign: gpg --local-user 0x0037AFD46556700F --clearsign --output=126jlin_evangelista_signed.pdf --not-dash-escaped 126jlin_evangelista.pdf
+% to verify: gpg --verify 126jlin_evangelista_signed.pdf
+
+\usepackage{mnhsletter}
+%\usepackage{siunitx}
+
+\newcommand\firstname{Jophy}
+\newcommand\lastname{Lin}
+\newcommand\subject{she}
+\newcommand\object{her}
+\newcommand\possessive{her}
+\newcommand\reflexive{herself}
+\newcommand\adjective{happy}
+
+\title{Recommendation for \firstname\ \lastname}
+\author{Dennis Evangelista}
+% For letters of recommendation, MBS asks that you do not date your letter
+\date{} 
+%\date{\today}
+%\usepackage[american,inputamerican]{isodate}
+%\date{\printdate{6/17/2021}}
+
+% This also sets the PDF metadata so it is searchable in like Spotlight etc. 
+\hypersetup{
+pdfauthor={Dennis Evangelista},
+pdftitle={Recommendation for \firstname\ \lastname},
+pdfkeywords={\firstname\ \lastname, Manalapan High School, MNHS, Science and Engineering, S\&E, recommendation}}
+
+% for letter closing use this if you wish to sign hardcopy
+\usepackage{designature}
+\digitalsignature{\includesignature}
+\name{Dennis J.~Evangelista, Ph.D.}
+
+\begin{document}
+
+\begin{letter}{% recipient address here (optional, for future envelope use)
+%Research Science Institute\\
+%Center for Excellence in Education\\
+%7918 Jones Branch Drive, Suite 700\\
+%McLean, VA 22102
+}
+
+% opening here
+\opening{Recommendation for {\scshape\firstname\ \lastname}:}
+%\raggedright % if you like this sort of thing
+%\setlength{\parindent}{15pt} % if you like this sort of thing
+
+% Keep letter to one page (adjust margins and font size if necessary)
+I am \adjective\ to recommend \firstname\ \lastname\ for admission to the Office of Naval Research (ONR) Science and Engineering Apprenticeship Program (SEAP). \firstname\ is a current student in my Science \& Engineering AP Physics C Mechanics class. I have known \firstname\ for one quarter. Although this time is short, I am very familiar with the Science \& Engineering magnet program \subject\ is in, as I am also a graduate of the program. I hold bachelors and masters degrees in mechanical engineering and EECS and a PhD in integrative biology. I am a licensed professional engineer, a former US Navy officer at NAVSEA 08 / Naval Reactors, and a former assistant professor of Weapons, Robotics, and Control Engineering at the US Naval Academy. As a former officer from the Naval Nuclear Propulsion Program, I am familiar with RSI's founding principles as set by ADM Rickover. My major area of research is comparative biomechanics. 
+
+Other teachers at my school, including the AP computer science teacher, describe \firstname\ as an ``academic animal'' in a good way. She is highly motivated in the fields \subject\ is interested in and takes on leadership positions in order to push \possessive\ peers to excel. For example, as a sophomore, \firstname\ ran the Research Club and did extremely well at major science fair events. As a junior, \subject\ continues to lead the Research Club, and will conduct an app development bootcamp for the district Hackathon. In my class, I have directly observed this as \subject\ is always the leader of her physics lab group. 
+
+Relevant to \firstname's interest in RSI and in computer science or computational biology, \firstname\ held a summer internship last year at Harvard in spatial transcriptomics and computational biology. She is active in coding events (cybersecurity internship; district hackathon). Her ISEF science fair project focused on diabetic retinopathy detection from images using a novel deep ensemble learning architecture. I am relatively new to the school and have not had much time to interact with \firstname\ on biology topics, but I am already challenging \firstname\ to identify potential senior projects in the areas of computational biology, bioinformatics, etc. 
+
+The Science \& Engineering program that \firstname\ is in is a very rigorous magnet program in which students take advanced science and mathematics courses as preparation for STEM majors. As you can see from \possessive\ transcripts, \firstname\ is concurrently in several other challenging classes including AP Computer Science and AP Calculus BC. She has already taken AP Biology (freshman year), but I regularly quiz my students on such topics to show them how fun it is to be interdisciplinary. \firstname\ possesses a flexibility of mind that allows \object\ to excel in abstract computer science, practical coding tasks, and the oddities and complexities of biology, evolution, and ecology, from molecules on up in scale. \firstname\ has my highest recommendation; I believe \subject\ would contribute greatly to the RSI program. 
+
+% closing here
+%\closing{Respectfully,}
+\noclosing
+
+%\ps{post script here}
+%\encl{enclosure here}
+\end{letter}
+
+\end{document}
+
+%
+%For the bullet points, I would suggest mentioning highlights such as:
+%My internship experience at Harvard Medical School in spatial transcriptomics and computational biology
+%My cybersecurity internship at NJCCIC, where I developed Capture the Flag and escape room challenges and conducted research on adversarial attacks against autonomous vehicles
+%The ISEF project I completed independently, focused on diabetic retinopathy detection using a novel deep ensemble learning architecture
+%My leadership roles, such as leading the app development bootcamp for the school district hackathon and organizing research courses
+%My current position as a computer science instructor and TA at KTBYTE
+%That said, feel free to include any accomplishments or experiences you think are the most relevant or that stand out the most, as I have a wide range of things I do and I'm not sure which ones would be the most relevant for RSI.
+%
+%In terms of my RSI application, I reached out to them regarding the topic selection, and they indicated that they prefer a very broad subfield for each topic. So, for my first choice, I selected computer science with a subsection of machine learning, and for my second choice, I chose bioinformatics/computational biology with a subsection of systems biology.
